@@ -2,7 +2,7 @@ const functions = require('firebase-functions');
 const express = require('express');
 const cors = require("cors");
 const { request, response } = require('express');
-const stripe = require('stripe')('sk_test_51HPx4QHcRHvmjmM3w4lAEYUeVEi8Td7wZO4ZwYtAJlnoLR0WueqnUTA23TZi6k8rETB3ZlOKVYtA92aKnBmIVzzV00XgwTgUXV')
+const stripe = require('stripe')('')// Add test payment key from stripe
 // API
 
 //App config
